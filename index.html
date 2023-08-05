@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Register</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="navbar-brand">
+                <a href="#">Brand</a>    
+            </h1>
+
+            <ul class="navbar-nav">
+                <li class="active navbar-item"><a class="navbar-link" href="#">Home</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="#">About</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="#">Contact</a></li>
+            </ul>
+
+            <form class="navbar-search" action="/search" method="get">
+                <input type="search" name="search" placeholder="search">
+                <button type="button">Search</button>
+            </form>
+
+            <form  class="navbar-form" action="/" method="post" >
+                <label for="username">Username:</label>
+                <input  id="username" type="text" name="username" placeholder="Username">
+
+                <label for="password">Password:</label>
+                <input  id="password" type="password" name="password" placeholder="Password">
+
+                <button type="submit">Login</button>
+            </form>
+        </nav>
+    </header>
+</body>
+</html>
