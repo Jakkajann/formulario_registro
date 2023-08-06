@@ -34,6 +34,98 @@
                 <button type="submit">Login</button>
             </form>
         </nav>
+
+        <section id="registro">
+            <form action="/" method="post">
+                <fieldset class="form-container">
+                    <legend>Dados Pessoais</legend>
+                    
+                    <div class="form-group-1">
+                        <label for="f_name">First Name:</label>
+                        <input type="text" name="f_name" id="f_name">
+    
+                        <label for="l_name">Last Name:</label>
+                        <input type="text" name="l_name" id="l_name">
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                        
+                        <label for="birth">Birth:</label>
+                        <input type="date" name="birth" id="birth" placeholder="01-01-1901">
+                    </div>
+
+                    <div class="form-group-2">
+                        <label for="tel">Telefone:</label>
+                        <input type="tel" name="tel" id="tel">
+    
+                        <label for="cpf">Cpf:</label>
+                        <input type="text" name="cpf" id="cpf" pattern="[0-9]">
+
+                        <label for="sexo">Selecione o seu sexo: </label>
+                        <div class="sex-container">
+                            <input type="radio" name="sexo" value="masculino"> Masculino
+                        </div>
+                        <div class="sex-container">
+                            <input type="radio" name="sexo" value="feminino"> Feminino
+                        </div> <div class="sex-container">
+                            <input type="radio" name="sexo" value="outro"> Outro
+                        </div>
+                    </div>
+                </fieldset>
+                
+
+                <fieldset class="form-container">
+
+                    <legend>Endereço</legend>
+
+                    <div class="form-group-1">
+                        <label for="rua">Rua:</label>
+                        <input type="text" name="rua" id="rua">
+    
+                        <label for="bairro">Bairro: </label>
+                        <input type="text" name="bairro" id="bairro">
+                    </div>
+                    
+                    <div class="form-group-2">
+                        <label for="cep">CEP</label>
+                        <input type="text" name="cep" id="cep" pattern="[0-9]">
+    
+                        <label for="uf">UF:</label>
+                        <select name="uf" id="uf">
+                            <option value="PR">PR</option>
+                            <option value="SC">SC</option>
+                            <option value="MG">MG</option>
+                            <option value="Outros">Outros...</option>
+                        </select>
+                    </div>
+
+                </fieldset>
+                <div class="flex-container">
+                    <textarea name="contrato" cols="100" rows="20">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore necessitatibus, blanditiis repellat sit laboriosam autem aliquam iure porro quae, ab sapiente praesentium et dolor illo, hic facilis odit nostrum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore necessitatibus, blanditiis repellat sit laboriosam autem aliquam iure porro quae, ab sapiente praesentium et dolor illo, hic facilis odit nostrum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore necessitatibus, blanditiis repellat sit laboriosam autem aliquam iure porro quae, ab sapiente praesentium et dolor illo, hic facilis odit nostrum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore necessitatibus, blanditiis repellat sit laboriosam autem aliquam iure porro quae, ab sapiente praesentium et dolor illo, hic facilis odit nostrum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore necessitatibus, blanditiis repellat sit laboriosam autem aliquam iure porro quae, ab sapiente praesentium et dolor illo, hic facilis odit nostrum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore necessitatibus, blanditiis repellat sit laboriosam autem aliquam iure porro quae, ab sapiente praesentium et dolor illo, hic facilis odit nostrum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore necessitatibus, blanditiis repellat sit laboriosam autem aliquam iure porro quae, ab sapiente praesentium et dolor illo, hic facilis odit nostrum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore necessitatibus, blanditiis repellat sit laboriosam autem aliquam iure porro quae, ab sapiente praesentium et dolor illo, hic facilis odit nostrum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore necessitatibus, blanditiis repellat sit laboriosam autem aliquam iure porro quae, ab sapiente praesentium et dolor illo, hic facilis odit nostrum.
+                    </textarea>
+                    
+                </div>
+
+                <div class="flex-container">
+                    <input type="checkbox" name="agree" id="agreeContract"> I agree with the terms
+                </div>
+
+                <div class="flex-container">
+                    <button type="reset">Reset  </button>
+                    <button type="submit">Submit</button>
+                </div>
+
+            </form>
+        </section>
     </header>
 </body>
 </html>
